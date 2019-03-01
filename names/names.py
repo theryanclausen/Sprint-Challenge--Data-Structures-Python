@@ -20,7 +20,7 @@ duplicates = []
 #             duplicates.append(name_1)
 pointer_1 = 0
 pointer_2 = 0
-
+counter = 0
 while pointer_1 < len(names_1) - 1 and pointer_2 < len(names_2) - 1:
     if names_1[pointer_1] > names_2[pointer_2]:
         pointer_2 += 1
